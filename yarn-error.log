@@ -1,0 +1,64 @@
+Arguments: 
+  D:\360Downloads\Software\node\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @babel/preset-typescript -D
+
+PATH: 
+  D:\360Downloads\Software\xftp6\;D:\360Downloads\Software\xshell\;C:\Python38\Scripts\;C:\Python38\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\chocolatey\bin;D:\360Downloads\Software\Git\cmd;D:\360Downloads\Software\SVN\bin;D:\Download\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Local\Yarn\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\360Downloads\Software\node\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;D:\360Downloads\Software\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  16.13.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\Administrator\AppData\Local\Yarn\Cache\v6\npm-ansi-styles-3.2.1-41fbb20243e50b12be0f04b8dedbf07520ce841d-integrity\node_modules\ansi-styles\index.js' -> 'D:\E\study\github\super-search\node_modules\@babel\highlight\node_modules\ansi-styles\index.js'
+
+npm manifest: 
+  {
+    "name": "super-search",
+    "version": "1.0.0",
+    "description": "超级搜索框",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "webpack-dev-server --mode development"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/LilyLinxl/super-search.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/LilyLinxl/super-search/issues"
+    },
+    "homepage": "https://github.com/LilyLinxl/super-search#readme",
+    "devDependencies": {
+      "babel-core": "^6.26.3",
+      "babel-loader": "^8.2.4",
+      "babel-preset-env": "^1.7.0",
+      "babel-preset-react": "^6.24.1",
+      "css-loader": "^6.7.1",
+      "html-webpack-plugin": "^5.5.0",
+      "node-sass": "^7.0.1",
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0",
+      "sass": "^1.50.0",
+      "sass-loader": "^12.6.0",
+      "style-loader": "^3.3.1",
+      "ts-loader": "^9.2.8",
+      "typescript": "^4.6.3",
+      "webpack": "^5.72.0",
+      "webpack-cli": "^4.9.2",
+      "webpack-dev-server": "^4.8.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
